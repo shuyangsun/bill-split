@@ -1,2 +1,2 @@
-# bill-split
+# Bill Split
 Split bill with friends.
