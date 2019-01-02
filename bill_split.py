@@ -1,12 +1,17 @@
 """
 Tool to help split bill.
 
-Input file format:
-Each expense should be in its own line, represented in its following format:
+Input format:
+Expenses are separated into lines, represented in the following format:
 participants: a, b, c, ...
 payer, amount, description: participants (separated by comma)
 
 Note: use "all, -a, -b" to represent everyone but a and b in an expense.
+
+Sample input:
+participants: a, b, c, d
+a, 100: a, b, c, d
+d, 200, food: a, b
 """
 
 import uuid
