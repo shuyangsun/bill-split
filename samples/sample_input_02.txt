@@ -1,0 +1,4 @@
+participants: Tommy, Lily, Paul, Michelle
+Michelle, 100, Hotpot: all
+Tommy, 200: all, -Paul
+Lily, 75.63: Paul, Tommy
