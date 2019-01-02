@@ -1,0 +1,7 @@
+participants: shuyang, shane, yichen, lu, haotian, yezi, erjun
+shane, 110, drinks: all
+erjun, 35.12, uber: all
+erjun, 100, cover + coat check: all
+shane, 30, uber: all, -yezi
+shuyang, 142.55, food: all, -yezi
+yichen, 70, drinks: all, -yezi
