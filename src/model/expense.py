@@ -2,13 +2,12 @@
 Contains class that represents an expense.
 """
 
-
 import uuid
 
 
 class Expense:
     """
-    Expense contains information about spendings on an item: food, drinks, transportation, etc.
+    Expense contains information about spenddings on an item: food, drinks, transportation, etc.
     """
 
     def __init__(
@@ -20,6 +19,8 @@ class Expense:
             description=None,
             weights=None
         ):
+        # pylint: disable=too-many-arguments
+
         self._payer = payer
         self._amount = amount
         self._participants = participants
@@ -30,10 +31,12 @@ class Expense:
 
     @property
     def payer(self):
+        """
+        Participant that paid for this expense.
+        """
         return self._payer
 
     # TODO: other properties
 
     def __hash__(self):
         return hash(self._uuid)
-
